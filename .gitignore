@@ -1,0 +1,50 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# Editori / IDE
+.vscode/
+.idea/
+*.sublime-*
+*.swp
+*~
+
+# AI alati — lokalna podešavanja
+.claude/settings.local.json
+
+# Tajne i lokalna konfiguracija
+.env
+.env.*
+!.env.example
+wp-config.php
+wp-config-local.php
+auth.json
+*.pem
+*.key
+
+# Zavisnosti
+vendor/
+node_modules/
+
+# Build i paketi za distribuciju
+*.zip
+dist/
+build/
+
+# Logovi, keš, dump-ovi
+*.log
+debug.log
+error_log
+*.sql
+*.sql.gz
+.phpcs-cache
+.phpunit.result.cache
+.phpunit.cache/
+.cache/
+
+# Lokalno WordPress okruženje (wp-env, Local, Docker)
+.wp-env.override.json
+wordpress/
+wp-content/uploads/
